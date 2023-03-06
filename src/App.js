@@ -10,6 +10,11 @@ import "./App.css";
 function App() {
   const userData = JSON.parse(localStorage.getItem("userData"));
   const [user, setLoginUser] = useState(userData || null);
+  
+  window.onbeforeunload = function () {
+    localStorage.clear();
+  };
+  
   return (
     <div className="App">
       <Router>
