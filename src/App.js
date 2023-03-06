@@ -8,7 +8,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  const [user, setLoginUser] = useState();
+  const userData = JSON.parse(localStorage.getItem("userData"));
+  const [user, setLoginUser] = useState(userData || null);
   return (
     <div className="App">
       <Router>
