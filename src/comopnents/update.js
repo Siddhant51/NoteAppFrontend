@@ -4,7 +4,7 @@ import { useState } from "react";
 import Form from "./form";
 import axios from "axios";
 
-const BASE_URI = "http://localhost:3000";
+const BASE_URI = "https://noteapp-api-92cs.onrender.com";
 
 const Update = ({ userId }) => {
   const location = useLocation();
