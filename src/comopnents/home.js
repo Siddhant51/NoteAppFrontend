@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./home.css";
 
-const BASE_URI = "http://localhost:3000";
+const BASE_URI = "https://noteapp-api-92cs.onrender.com";
 
 const Home = ({ user, userId, setLoginUser }) => {
   const navigate = useNavigate();
