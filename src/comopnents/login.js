@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "./login.css";
 
-const BASE_URI = "http://localhost:3000";
+const BASE_URI = "https://noteapp-api-92cs.onrender.com";
 
 const Login = ({ setLoginUser }) => {
   const navigate = useNavigate();
