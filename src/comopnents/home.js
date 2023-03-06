@@ -39,6 +39,7 @@ const Home = ({ user, userId, setLoginUser }) => {
         <div
           className="logout"
           onClick={() => {
+            localStorage.removeItem("userData");
             setLoginUser();
           }}
         >
