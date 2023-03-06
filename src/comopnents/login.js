@@ -25,6 +25,7 @@ const Login = ({ setLoginUser }) => {
     if (email && password) {
       axios.post(`${BASE_URI}/login`, user).then((res) => {
         console.log(res);
+        localStorage.setItem("userData", JSON.stringify(res.data.user));
         setLoginUser(res.data.user);
         navigate("/");
       });
