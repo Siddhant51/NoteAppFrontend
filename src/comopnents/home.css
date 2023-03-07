@@ -36,6 +36,10 @@
     display: flex;
     flex-wrap: wrap;
     height: 90vh;
+    overflow-y: scroll;
+}
+.body::-webkit-scrollbar{
+    display: none;
 }
 
 .note{
