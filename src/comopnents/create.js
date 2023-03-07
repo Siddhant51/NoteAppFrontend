@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Form from "./form";
 
-const BASE_URI = "http://localhost:3000";
+const BASE_URI = "https://noteapp-api-92cs.onrender.com";
 
 const Create = ({ userId }) => {
   const navigate = useNavigate();
