@@ -12,8 +12,8 @@ const Create = ({ userId }) => {
     userId,
     title: "",
     description: "",
-    color: "",
-    font: "",
+    color: "#5585b5",
+    font: "consolas",
   });
 
   const handelChange = (event) => {
