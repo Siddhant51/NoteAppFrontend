@@ -41,7 +41,7 @@ const Login = ({ setLoginUser }) => {
         name="email"
         value={user.email}
         onChange={handelChange}
-        placeholder="Username"
+        placeholder="Email"
       ></input>
       <input
         type="password"
